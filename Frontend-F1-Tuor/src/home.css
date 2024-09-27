@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+/*---- GERAL -----*/
+body {
+  display: block;
+  max-width: 1265px;
+
+  background-color: rgba(248, 243, 234, 0.89);
+}
+
+.container{
+  max-width: 1000px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+
+  margin-left: 11rem;
+  padding: 4rem;
+
+  box-shadow: 3px 4px 13px 4px #00000059;
+  border-radius: 35px 0;
+  
+}
+
+h1{
+  overflow: hidden;
+
+  text-align: center;
+  padding-top: 1em;
+
+  font-family: 'DM Sans', sans-serif;
+  color: #412b2b;
+  text-shadow: 2px 2px 5px #ffffff;
+
+}
+
+
+.singin{
+ margin-left: 10rem;
+ margin-top: 8rem;
+
+}
+
+p{
+  margin-top: 1rem;
+}
+
+#senha{
+  margin-left: -.8rem;
+}
+
+#senha-padding{
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 750px) {
+  .row, .col{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } .container{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } .singin{
+    margin-left: 1rem;
+  }
+
+}
+
+@media (max-width: 460px) {
+  img{
+      width: 300px;
+  } .voltar {
+    width: 30px;
+  } .col{
+    padding: 0;
+  }
+}

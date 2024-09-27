@@ -1,0 +1,84 @@
+/*FIXOS*/
+
+body {
+  font-family: "century gothic";
+  background-color: #5584AC;
+  background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603)); 
+  background-size: cover;
+}
+
+nav {
+  background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  padding-left: 20px;
+}
+
+.links {
+  color: #F6F2D4;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #22577E;
+  border-radius: 5px;
+  color: #F6F2D4;
+}
+
+/*HOME PAGE*/
+
+.formulario {
+  background-color: #22577E;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  border-radius: 10px;
+  padding-top: 2px;
+  color: #F6F2D4;
+}
+
+/*DESTINOS E PROMOÇÕES*/
+td {
+  width: 20%;
+  text-align: center;
+  color: #F6F2D4;
+}
+
+.destinos {
+  background-color: #5584AC;
+  border-radius: 20px;
+}
+
+.locais {
+  width: 200px;
+  height: 150px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+/*CONTATO*/
+
+.contatos {
+  height: 355px;
+}
+
+.contato {
+  color: #000;
+} 
+
+del {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+}
